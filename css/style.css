@@ -1,0 +1,103 @@
+:root {
+    --primary-text-color: #212121;
+    --accent-text: #2196F3;
+    --second-text: #757575;
+    --bg-color: #FFFFFF;
+    --bg-hero: #2F303A;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    font-family: Raleway;
+    font-style: 400;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+    text-decoration: none;
+}
+
+.logo-color {
+    color: var(--accent-text);
+}
+
+.site-nav a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+
+.contact a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: var(--second-text);
+}
+
+.site-nav a:hover,
+.contact a:hover,
+.site-nav a:focus,
+.contact a:focus {
+    color: var(--accent-text);
+}
+
+.site-nav .current {
+    color: var(--accent-text);
+}
+
+.a {
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: var(--bg-hero);
+}
+
+.hero {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--bg-color);
+    margin: auto;
+    padding-top: 200px;
+}
+
+.section {
+    color: var(--primary-text-color);
+}
+
+.button {
+    background: var(--accent-text);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.button .button-title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--bg-color);
+}
