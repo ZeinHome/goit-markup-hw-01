@@ -4,10 +4,23 @@
     --second-text: #757575;
     --bg-color: #FFFFFF;
     --bg-hero: #2F303A;
+    --bg-color-s: #E5E5E5;
+    --color-button: #F5F4FA;
 }
 
 body {
     font-family: Roboto, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--primary-text-color);
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 
 .list {
@@ -15,11 +28,10 @@ body {
 }
 
 .logo {
-    font-family: Raleway;
-    font-style: 400;
+    font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 0.8;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
     text-decoration: none;
@@ -30,22 +42,15 @@ body {
 }
 
 .site-nav a {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.1;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--primary-text-color);
 }
 
 .contact a {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    text-decoration: none;
     color: var(--second-text);
 }
 
@@ -68,10 +73,9 @@ body {
 }
 
 .hero {
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.3;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -91,13 +95,90 @@ body {
 }
 
 .button .button-title {
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1.8;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--bg-color);
+}
+
+.rule-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
+
+.rule-title .rule-text {
+    font-size: 14px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: var(--second-text);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.job {
+    font-size: 16px;
+    line-height: 1.2;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.address {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--bg-color);
+}
+
+
+/* 2 file */
+
+.second-button {
+    background: var(--color-button);
+    border-radius: 4px;
+}
+
+.second-button .second-button-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.title-img {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-color);
+}
+
+.categories {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
+    color: var(--second-text);
+}
+
+.b {
+    display: flex;
+    flex-direction: row;
 }
